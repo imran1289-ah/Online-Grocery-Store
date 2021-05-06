@@ -19,7 +19,7 @@ password : Admin1234
 
 **Some part of the website is incomplete/not done since some of the team memebers were unable to finish/complete it
 
-**This is our first website ever created and we had no prior experience with web development , thus the website may not look very appealing. We were learning the core concepts of web programming as were progressing trough the project
+**This is our first website ever created and we had no prior experience with web development
 
 Here a some screenshot of the website
 
