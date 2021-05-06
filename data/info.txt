@@ -1,0 +1,25 @@
+
+Here is the information of the user,
+First name :  Julilian,
+Last name :  Lussier,
+Address :  1-2752 Pie-IX BLVD,
+Postal Code :  H1V 2E9,
+Email : julianlussier@gmail.com,
+Password :  gdhrth,
+------------------
+Here is the information of the user,
+First name :  Olivier,
+Last name :  Medaino,
+Address :  154 Concorde BLVD,
+Postal Code :  H1H 2T4,
+Email : olivier.medaino.98@outlook.com,
+Password :  fsdgdg,
+------------------
+Here is the information of the user,
+First name : Mark,
+Last name : Carl,
+Address : 1353 Weller Montreal,
+Postal Code : H4S 1M3,
+Email : gogoman1234@hotmail.com,
+Password : Food1234,
+------------------
