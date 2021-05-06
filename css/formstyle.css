@@ -1,0 +1,77 @@
+
+/*Class box to contain the form .Auto will center the elements horizantaly. Padding will strech out the form*/
+.box{
+    width:40%;
+    margin:6% auto;
+    padding:5px;
+    
+}
+
+/*Class input to modify the textbox fields*/
+input {
+    width:97%;
+    background-color:rgb(238, 228, 228);
+}
+
+
+/*Class label to modify the labels of the form*/
+label{
+    margin-right:2.7in;
+}
+
+/*Class bottom to place links of other pages. Fixed will fix the elements while scrolling.https://developer.mozilla.org/en-US/docs/Web/CSS/bottom*/
+.bottom{
+    background-color:red;
+    bottom: 0;
+    width:100%;
+    position:fixed;
+}
+
+/*Class bottomlink which will aling the text to the right, remove the underline of the links and set the font color to white*/
+a.bottomlink{
+    text-decoration:none;
+    color:white;
+    float:right;margin-right:30px;
+}
+
+
+
+
+
+
+/*Media class for mobile and tablets*/
+@media (max-width:768px){
+    .box{
+        width:100%;
+        margin: 2% auto;
+        padding:2px;
+    }
+
+    label{
+        margin-left:1%;
+    }
+
+    input {
+        margin-left:1%;
+    }
+
+    a{
+        margin-left:1%;
+    }
+
+    img.logo{
+        display:none;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+

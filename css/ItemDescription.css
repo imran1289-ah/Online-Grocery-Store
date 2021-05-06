@@ -1,0 +1,282 @@
+body{
+    background-image: url("../image/low_contrast_linen.png");
+  }
+  .bottom{   
+      background-image: url("../image/low_contrast_linen.png");
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+  .bottomAdditional{
+      background-color: rgba(255, 255, 255, 0.603);
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      height: fit-content;
+      max-width: fit-content;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-radius: 25px;
+  }
+  
+  
+  .sidenav {
+      height: fit-content; 
+      width: 0; 
+      position: fixed; 
+      z-index: 1; 
+      top: 100px; 
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.877); 
+      overflow-x: hidden; 
+      padding-top: 60px; 
+      transition: 0.5s; 
+  
+      
+    }
+    
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #da1414;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    div.absolute {
+      position: absolute;
+      top: 120px;
+      right: 0;
+      width: 100px;
+      height: 100px;
+    }
+    div.content {
+        width: 100%;
+        margin: auto;
+        border: 3px solid #dbc0c0; 
+        border-collapse: collapse;
+        table-layout: auto;
+      }
+   
+    #main {
+      transition: margin-left .5s;
+      padding: 0px;
+    }
+    
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 20px;
+        color: #dfcbcb;
+      }
+    
+      .fontLabel{
+        font-size: 15px;
+        color: #cec1c1;
+      }
+    }
+  
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 30px;
+        color: #d4cdcd;
+      }
+    
+      .fontLabel{
+        font-size: 20px;
+        color: #e6d9d9;
+      }
+    }
+    
+    
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 20px;
+        color: #e7d4d4;
+      }
+    
+      .fontLabel{
+        font-size: 15px;
+        color: #dfc5c5;
+      }
+    }
+  
+  
+    #imgAlsoSee{
+      position: relative;
+      display: block;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      width:80%;
+    }
+  
+    .p-center {
+      margin: auto;
+      width: 100%;
+    }
+  
+    .container-fluid{
+      margin-top: 75px;
+      margin-bottom: 100px;
+    }
+    .add-cart{
+      background-color:rgba(226, 210, 210, 0.815);
+      width:100%; 
+      height:100px;
+      max-width: 400px;
+      max-height: 150px;
+      color:rgba(255, 255, 255, 0.815);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+  
+    .center{
+      margin: auto;
+      width: 85%;
+      padding: 10px;
+    }
+  
+    .fontLegend{
+      font-size: 35px;
+      color: #000000;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .fontLabel{
+      font-size: 25px;
+      color: #000000;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .center-block {
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+    img {float:left;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        border-style:solid;
+        border-width: 3px;
+        width:550px; 
+        height:450px;
+        margin-right: 20px;
+    }
+  
+    img.center {float:none;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        border-style:solid;
+        border-width: 3px;
+        width:550px; 
+        height:450px;
+        margin-right: 0px;
+    }
+    #price{color: rgb(255, 0, 0); font-size: 2em;}
+    #centerFood{margin-left: 2.5%;}
+    #addToCart{background-color:rgba(0, 0, 0, 0.815); 
+               width:300px; height:100px; 
+               color:rgba(255, 255, 255, 0.815); 
+               font-family:Georgia, 'Times New Roman', Times, serif;
+               }
+    #availibility{
+                text-indent:35%;
+                background-color:rgba(145, 145, 145, 0.815); 
+                color:rgba(231, 218, 218, 0.815); 
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                margin-top: 75px;
+               }
+    #similarProducts{text-indent:40%;
+               color:rgba(0, 0, 0, 0.815); 
+               font-family:Georgia, 'Times New Roman', Times, serif;
+               }
+               
+    #fieldSetProduct{width:50%; height:40.5%;
+   }
+   #fieldSetSimilarProduct{width:100%; height:17.5%;
+   }
+  
+   .description{
+    background-color:rgba(0, 0, 0, 0.815);
+    width:100%; 
+    height:100px;
+    max-width: 400px;
+    max-height: 75px;
+    color:rgba(255, 255, 255, 0.815);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+  
+   .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border-style:none;
+  }
+  .AlsoSee {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-style:none;
+  }
+  .YourCart {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-style:none;
+    position: absolute;
+    top: -20px;
+    left: 35%;
+  }
+  

@@ -1,0 +1,79 @@
+
+/*Style to add a container for item*/
+.left{
+    width:33%;
+    border-style:solid;
+    margin-left:5px;
+    float:left;
+}
+
+/*Style to add a container for item*/
+.right{
+    width:33%;
+    border-style:solid;
+    float:left;
+    margin-right:5px;
+}
+
+/*Container of all items*/
+.items{
+    width:100%;
+}
+
+/*Style to add a container for item*/
+.middle{
+    width:33%;
+    float:left;
+    border-style:solid;
+    margin-right:2px;
+}
+
+/*Center button*/
+p.button{
+    text-align:center;
+}
+
+
+/*Style applied to screen less than 1024px*/
+@media (max-width:1024px){
+
+    .left{
+        width:100%;
+        border-style:solid;
+        margin-left:5px;
+        float:none;
+    }
+    
+    .right{
+        width:100%;
+        border-style:solid;
+        float:none;
+        margin-right:5px;
+    }
+    
+    .items{
+        width:100%;
+    }
+    
+    .middle{
+        width:100%;
+        float:none;
+        border-style:solid;
+        margin-right:2px;
+        height:100%;
+    }
+
+    img{
+        width:100%;
+    }
+
+
+
+
+
+    
+}
+
+
+
+

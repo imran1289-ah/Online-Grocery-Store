@@ -1,0 +1,298 @@
+body{
+    background-image: url("../image/low_contrast_linen.png");
+  }
+  .bottom{   
+      background-image: url("../image/low_contrast_linen.png");
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    
+  .bottomAdditional{
+      background-color: rgba(255, 255, 255, 0.603);
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      max-height: 475px;
+      max-width: 400px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      border-radius: 25px;
+  }
+  
+  /* The side navigation menu */
+  .sidenav {
+      height: fit-content; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 100px; /* Stay at the top */
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.877); /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  
+      
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    div.absolute {
+      position: absolute;
+      top: 120px;
+      right: 0;
+      width: 100px;
+      height: 100px;
+    }
+    div.content {
+        width: 100%;
+        margin: auto;
+        border: 3px solid #000000; 
+        border-collapse: collapse;
+        table-layout: auto;
+      }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .5s;
+      padding: 0px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 20px;
+        color: #000000;
+      }
+    
+      .fontLabel{
+        font-size: 15px;
+        color: #000000;
+      }
+    }
+  
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 30px;
+        color: #000000;
+      }
+    
+      .fontLabel{
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+    
+    /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+      div.content {margin-left: 0;}
+  
+      .fontLegend{
+        font-size: 20px;
+        color: #000000;
+      }
+    
+      .fontLabel{
+        font-size: 15px;
+        color: #000000;
+      }
+    }
+  
+  
+    #aisles{
+      position: relative;
+      display: block;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      width:80%;
+      background-color: green;
+      text-align: center;
+    }
+  
+    .p-center {
+      margin: auto;
+      width: 100%;
+    }
+  
+    .container-fluid{
+      margin-top: 75px;
+      margin-bottom: 100px;
+    }
+    .add-cart{
+      background-color:rgba(0, 0, 0, 0.815);
+      width:100%; 
+      height:100px;
+      max-width: 400px;
+      max-height: 150px;
+      color:rgba(255, 255, 255, 0.815);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+  
+    .center{
+      margin: auto;
+      width: 85%;
+      padding: 10px;
+    }
+  
+    .fontLegend{
+      font-size: 35px;
+      color: #ffffff;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .fontLabel{
+      font-size: 25px;
+      color: #ffffff;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .center-block {
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+    img {float:left;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        border-style:solid;
+        border-width: 3px;
+        width:550px; 
+        height:450px;
+        margin-right: 20px;
+    }
+  
+    img.center {float:none;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        border-style:solid;
+        border-width: 3px;
+        width:355px; 
+        height:450px;
+        margin-right: 0px;
+    }
+    #imgAlsoSee{
+        float:none;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+        border-style:solid;
+        border-width: 3px;
+        width:550px; 
+        max-height:200px;
+        margin-right: 0px;
+        border-color: #000000;
+
+    }
+    #price{color: rgb(255, 0, 0); font-size: 2em;}
+    #centerFood{margin-left: 2.5%;}
+    #contact{background-color:rgba(0, 0, 0, 0.815); 
+               color:rgba(255, 255, 255, 0.815); 
+               height: 50px;
+               font-family:Georgia, 'Times New Roman', Times, serif;
+               }
+    #availibility{
+                text-indent:35%;
+                background-color:rgba(145, 145, 145, 0.815); 
+                color:rgba(0, 0, 0, 0.815); 
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                margin-top: 75px;
+               }
+    #similarProducts{text-indent:40%;
+               color:rgba(0, 0, 0, 0.815); 
+               font-family:Georgia, 'Times New Roman', Times, serif;
+               }
+               
+    #fieldSetProduct{width:50%; height:40.5%;
+   }
+   #fieldSetSimilarProduct{width:100%; height:17.5%;
+   }
+  
+   .description{
+    background-color:rgba(0, 0, 0, 0.815);
+    width:100%; 
+    height:100px;
+    max-width: 400px;
+    max-height: 75px;
+    color:rgba(255, 255, 255, 0.815);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+  
+   .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    border-style:none;
+  }
+  .AlsoSee {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-style:none;
+  }
+  .YourCart {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-style:none;
+    position: absolute;
+    top: -20px;
+    left: 35%;
+  }
+  
