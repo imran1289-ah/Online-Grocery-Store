@@ -13,11 +13,13 @@ Members
 
 Since we are unable to publish the website online, the only way to access it is to host a server on your local computer. A application such as MAMP https://www.mamp.info/en/downloads/ , can be used to access the website. 
 
-**The website has an admin and the login informatio for it is 
+**The website has an admin and the login information for it is 
 email : admin@hotmail.com
 password : Admin1234
 
 **Some part of the website is incomplete/not done since some of the team memebers were unable to finish/complete it
+
+**This is our first website ever created and we had no prior experience with web development , thus the website may not look very appealing as we were learnign the core concepts of web programming as were progressing trough the project
 
 Here a some screenshot of the website
 
